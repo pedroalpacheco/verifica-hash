@@ -11,9 +11,11 @@ import hashlib
 import os
 
 
-arquivo = open('/home/papacheco/Desktop/API-s-python/verifica_hash/teste1.txt', 'r').read()
+arquivo = open(
+    '/home/papacheco/Desktop/API-s-python/verifica-hash/teste1.txt', 'r').read()
 
-arquivo2 = open('/home/papacheco/Desktop/API-s-python/verifica_hash/teste2.txt', 'r').read()
+arquivo2 = open(
+    '/home/papacheco/Desktop/API-s-python/verifica-hash/teste2.txt', 'r').read()
 
 lk = hashlib.md5(arquivo)
 lk2 = hashlib.md5(arquivo2)
@@ -25,4 +27,3 @@ if lk == lk:
     print("Arquivos iguais!")
 else:
     print("Arquivos diferentes!")
-
