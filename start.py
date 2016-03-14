@@ -6,9 +6,9 @@ LCI
 @author: papacheco
 """
 
-import md5
+#import md5
 import hashlib
-import os
+#import os
 
 
 arquivo = open(
